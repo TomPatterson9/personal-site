@@ -1,10 +1,10 @@
 var i = 0;
-var txt = "Welcome, I'm Tom.";
-var speed = 100;
+var txt = "Hello, World.";
+var speed = 80;
 
 function typeWriter() {
   if (i < txt.length) {
-    document.getElementById("bannerTitle").innerHTML += txt.charAt(i);
+    document.getElementById("typeText").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }

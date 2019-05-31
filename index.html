@@ -10,6 +10,19 @@
 	 	.hero {
 	 		background: black url(src/city.jpg) center / cover;
 	 	}
+	 	.links{
+	 		display: inline-block;
+	 		padding-right: 10px;
+	 		padding-left: 10px;
+	 	}
+	 	.customButton{
+	 		margin: 10px;
+	 		left: 7vw;
+	 	}
+	 	.centerText{
+	 		text-align: center;
+	 	}
+
 
 	 </style>
 
@@ -18,11 +31,29 @@
 	<section class="hero is-fullheight">
 		<div class="hero-body">
 			<div class="container">
-				<h1 class="subtitle has-text-warning">Hello, World.</h1>
-				<h1 class="title has-text-white">Tom Patterson</h1>
-				<h1 class="subtitle has-text-white">| Full time Computer Science student Year 3 |</h1>
+				<br/><br/><br/><br/><br/><br/>
+				<h1  class="subtitle has-text-success is-4">&lt;p&gt;<span class="has-text-warning"id="typeText"></span>&lt;/p&gt;</h1>
+				<h1 class="title has-text-white is-2">Tom Patterson</h1>
+				<h1 class="subtitle has-text-white is-3">| Full time Computer Science student Year 3 |</h1>
+				<a target="_blank"class="links" href="https://twitter.com/ThomasPP99"><img src="src/twitter.png" class="image is-48x48"></a>
+				<a target="_blank"class="links" href="https://www.linkedin.com/in/thomas-patterson-3b5716130/"><img src="src/linkedin.png" class="image is-48x48"></a>
+				<a target="_blank" class="links" href="https://github.com/TomPatterson9"><img src="src/github.png" class="image is-48x48"></a>
+				<br/>
+
 			</div>
 		</div>
+		<div class="hero-foot">
+			<a class="button is-normal customButton">  Read More  </a>
+		</div>
+
+	</section>
+	<section>
+		<div class="container">
+			<h1 class="title has-text-danger centerText">About Me</h1>
+
+
+		</div>
+
 	</section>
 
 	<script src="script.js"></script>
