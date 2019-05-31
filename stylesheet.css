@@ -1,0 +1,15 @@
+.headerContainer{
+	text-align: center;
+
+}
+.navigation{
+	display: inline-block;
+	font-family: 'Abel', sans-serif;
+	padding: 2vw;
+	color: black;
+
+}
+
+.activeTab{
+	text-decoration: underline;
+}
