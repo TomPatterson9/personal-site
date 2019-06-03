@@ -33,6 +33,13 @@
 	 		position: absolute;
 	 		top: 0;
 	 	}
+	 	#topButton{
+	 		position: fixed;
+	 		top: 90vh;
+	 		left: 85vw;
+	 		z-index: 99;
+	 		display: none;
+	 	}
 
 
 	 </style>
@@ -58,6 +65,7 @@
 		</div>
 
 	</section>
+	<a id="topButton" onclick="scrollUp()" class="button is-danger">Return to the top</a>
 	<section>
 		<div class="container">
 			<a name="aboutMe"></a>
@@ -75,13 +83,15 @@
 				<div class="column">
 					<h3 class="title is-4">Skills</h3>
 
+					<h3 class="subtitle">Level of knowledge</h3>
+
 				
+					<p class="has-text-weight-bold">Git & Github <progress class="progress is-success" value="100" max="100">100%</progress></p>
 					<p class="has-text-weight-bold">Java <progress class="progress is-success" value="100" max="100">100%</progress></p>
 					<p class="has-text-weight-bold">Javascript <progress class="progress is-success" value="66" max="100">66%</progress></p>
 					<p class="has-text-weight-bold">Python <progress class="progress is-success" value="66" max="100">66%</progress></p>
-					<p class="has-text-weight-bold">PHP <progress class="progress is-success" value="33" max="100">33%</progress></p>
 					<p class="has-text-weight-bold">MySQL <progress class="progress is-success" value="66" max="100">66%</progress></p>
-					<p class="has-text-weight-bold">Git & Github <progress class="progress is-success" value="100" max="100">100%</progress></p>
+					<p class="has-text-weight-bold">PHP <progress class="progress is-success" value="33" max="100">33%</progress></p>
 
 
 
