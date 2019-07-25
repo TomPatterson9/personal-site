@@ -38,3 +38,8 @@ function scrollUp(){
 	document.documentElement.scrollTop = 0;
 }
 
+bulmaCarousel.attach('#project-carousel', {
+    slidesToScroll: 1,
+    slidesToShow: 2,
+    infinite: true,
+ });
