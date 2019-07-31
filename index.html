@@ -16,6 +16,11 @@
 		.hero {
 			background: black url(src/city.jpg) center / cover;
 		}
+		.userSelect{
+			-webkit-user-select: none; /* Chrome/Safari */        
+			-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+ */
+		}
 	</style>
 
 </head>
@@ -85,7 +90,7 @@
 
 		</section>
 		<section class="has-background-white-ter">
-			<div class="container">
+			<div class="container userSelect">
 
 				<h1 class="title has-text-danger has-text-centered ">My recent work</h1>
 				<h1 class="subtitle has-text-centered">Here are some of my current and recent projects.</h1>
@@ -145,7 +150,7 @@
 		<footer class="footer">
 			<div class="content has-text-centered">
 				<p>
-					<strong>Bulma</strong> by Tom Patterson.
+					<strong>Made in Bulma</strong> by Tom Patterson.
 				</p>
 			</div>
 		</footer>
