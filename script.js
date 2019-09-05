@@ -1,5 +1,5 @@
 var i = 0;
-var txt = "Hello, World.";
+var txt = "Hello, World !";
 var speed = 80;
 
 function typeWriter() {
@@ -42,4 +42,5 @@ bulmaCarousel.attach('#project-carousel', {
     slidesToScroll: 1,
     slidesToShow: 2,
     infinite: true,
+    
  });
