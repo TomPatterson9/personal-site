@@ -102,3 +102,11 @@
 	-webkit-animation-play-state:paused;			
 
 }
+
+
+.overlay{
+	background-color: white;
+	
+	
+	position: absolute;
+}
