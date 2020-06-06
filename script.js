@@ -14,8 +14,6 @@ typeWriter();
 
 window.onscroll = function() {scrollFunction()};
 
-
-
 function scrollFunction() {
 
   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
@@ -37,10 +35,3 @@ function scrollUp(){
 	document.body.scrollTop = 0;
 	document.documentElement.scrollTop = 0;
 }
-
-bulmaCarousel.attach('#project-carousel', {
-    slidesToScroll: 1,
-    slidesToShow: 2,
-    infinite: true,
-    
- });
