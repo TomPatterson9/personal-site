@@ -26,3 +26,20 @@
 .rotated{
 	transform: rotate(30deg);
 }
+.imageSlides{
+	display:none;
+}
+.butt1{
+	position: absolute;
+	left: 0;
+	top:60%;
+	text-align: center;
+	font-size: 18px;
+}
+.butt2{
+	position: absolute;
+	right: 51%;
+	top:60%;
+	text-align: center;
+	font-size: 18px;
+}
